@@ -44,5 +44,9 @@
 
 let film =["gostbusters", "dracula","bird box", ]
 for(let i = 0; i < film.length; i++) {
-    if(i = 0; i < film.length; i++)
+    if("gostbusters" ==film[i]) {
+        console.log("if the film is gostbuster")
+    } else{
+        console.log(film[i])
+    }
 }
